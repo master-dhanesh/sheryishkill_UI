@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shery-ish-kill</title>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet" />
+  <link
+    rel="https://cdn.rawgit.com/mfd/7c7a915eb31474cc8c6a65066a4c4dc3/raw/f0f2fb94c21dea904812a53e0eb6cf0bc87f3754/GTWalsheimPro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+ 
+  
+<!-- ---------------------------------------------------------------------------------------------- -->
+      <section class="bg-overlay">
+
+        <div class="bg-video">
+          <video autoplay muted loop>
+            <source src="./assets/bg-video1.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="pt-3 container navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex justify-content-between collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Sheryishkill</a>
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Review Forum<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <div class="my-2 my-lg-0">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                <div class="dropdown show">
+                  <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img class="rounded-circle" src="./assets/PsAiXd.PNG" height="40" alt="">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">photo,name,view profile</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">My Classes</a>
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                  </div>
+                </div>
+
+                <button type="button" data-toggle="modal" data-target="#modalLoginForm"
+                  class="btn btn-outline-light px-3">Sign In</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masterheader container d-flex align-items-center">
+          <div class="mx-auto text-center">
+            <h1 class="headtext text-white mx-auto my-0">Here We Teach So You May Outreach<span
+                class="theme-color dot-size">.</span></h1>
+            <h3 class="text-white mx-auto mt-2 mb-5 font-weight-lighter">Join Sheryians to code, learn, make, and
+              discover.
+            </h3>
+            <Button class="btn theme-bgcolor text-white px-4 py-2 fs-26 font-weight-bold " data-toggle="modal"
+              data-target="#modalRegisterForm">Get Started</Button>
+          </div>
+        </header>
+      </section>
+
+      <!-- Sign in Form -->
+      <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content signin-model-01">
+            <div class="signin-model">
+              <div class="in-left">
+                <div class="in-left-inner">
+                  <h3 class="text-white font-weight-bold">Welcome Back to <br> Sheryians</h3>
+                  <br>
+                  <div class="theme-bgcolor convert-line"></div>
+                  <br>
+                  <p class="text-white weight-light">Sign in to continue to your account.</p>
+                </div>
+              </div>
+              <div class="in-right">
+                <button type="button" class="close pt-3 pr-3" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <br> <br>
+                <h1 class="text-center">Shery-ish-kill logo</h1>
+                <br>
+                <form class="container">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputUsername" aria-describedby="usernameHelp"
+                      placeholder="John Doe">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <a href="">Forgot Password?</a> <br><br>
+                  <Button type="submit" class="btn btn-block theme-bgcolor text-dark font-weight-bold"
+                    data-toggle="modal" data-target="#modalRegisterForm">Sign In</Button>
+                </form>
+                <br>
+                <p class="text-center">Not a member yet? <a href="">Sign Up</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sign Up Form -->
+      <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content signup-model-01">
+            <div class="signin-model">
+              <div class="in-left">
+                <div class="in-left-inner">
+                  <h3 class="text-white font-weight-bold">Join Sheryians for <br> Free</h3>
+                  <br>
+                  <div class="theme-bgcolor convert-line"></div>
+                  <br>
+                  <p class="weight-light text-white">This DOJO makes you creative with thousands of inspiring classes in
+                    design, development, and more.</p>
+                </div>
+              </div>
+              <div class="in-right">
+                <button type="button" class="close pt-3 pr-3" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <br> <br>
+                <h1 class="text-center">Shery-ish-kill logo</h1>
+                <br>
+                <div class="text-center px-5">
+                  <button type="button" class="reg-button d-flex btn btn-block">
+                    <img height="20"
+                      src="https://cdn.aircomechanical.com/wp-content/uploads/2018/12/google-review-button.png" alt="">
+                    <span>Sign Up with Google</span>
+                  </button>
+                  <hr>
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputfirst" placeholder="John">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputLasr" placeholder="Doe">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="inputEmail" placeholder="john@doe.shery">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="john's password">
+                    </div>
+                    <button type="submit" class="btn btn-block font-weight-bolder theme-bgcolor">Sign Up</button>
+                  </form>
+                  <br>
+                  <p">Already a member? <a href="">Sign In</a>.</p>
+                    <hr>
+                    <small class=" d-block px-3 text-center">By signing up you agree to Sheryians's Terms of Service and
+                      Privacy Policy.</small>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Projects-->
+      <section class="projects-section bg-light" id="projects">
+        <h1 class="projectHead text-center mb-4">Find What Fascinates You</h1>
+        <div class="container">
+
+          <!-- Featured Project Row-->
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/Cinema4d.PNG" alt="" /></div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Cinema 4D | 3D Modeling</h4>
+                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for
+                  any project - even commercial projects! Download it, customize it, and publish your website!</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project One Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/UIUX.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">UI/UX Designing </h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Two Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Ps Lr Ai Xd | 2D Modeling</h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Three Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/UIUX.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">Ae Pr | Video Modeling </h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Four Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">UI/UX Development</h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Five Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/UIUX.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">NodeJs Spring Django | Backend</h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Six Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">ReactJs Angular | Framework</h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Seven Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/MobileApp.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">ReactNative Flutter | Mobile Applications</h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Eight Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">ElectronJs Java | Desktop Applications </h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Nine Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/UIUX.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">MERN MEAN | Full Stack Web</h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Ten Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">JavaScript Java Python | Full Stack</h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Eleven Row-->
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/UIUX.PNG" alt="" /></div>
+            <div class="col-lg-6">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">GIT Docker Heroku | DevOps</h4>
+                    <p class="mb-0 text-dark-white">An example of where you can put an image of a project, or anything
+                      else, along with a description...<a style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Twelve Row-->
+          <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/2D.PNG" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+              <div class="bgcolor-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Data Structure Algorithms</h4>
+                    <p class="mb-0 text-dark-white">Another example of a project with its respective description. These
+                      sections work well responsively as well, try this theme on a small screen...<a
+                        style="color: #64a19d;" href="">Know More</a></p>
+                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Contact-->
+      <section class="contact-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i style="color: #64a19d;" class="fas fa-map-marked-alt mb-2"></i>
+                  <h4 class="text-uppercase m-0">Address</h4>
+                  <hr class="my-4" />
+                  <div class="small text-black-50">23-B Sector C, Indrapuri, Bhopal, Madhya Pradesh 462021</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i style="color: #64a19d;" class="fas fa-envelope mb-2"></i>
+                  <h4 class="text-uppercase m-0">Email</h4>
+                  <hr class="my-4" />
+                  <div class="small text-black-50"><a style="color: #64a19d;"
+                      href="#!">sheryians.community@gmail.com</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i style="color: #64a19d;" class="fas fa-mobile-alt mb-2"></i>
+                  <h4 class="text-uppercase m-0">Phone</h4>
+                  <hr class="my-4" />
+                  <div class="small text-black-50">+91 (782) 899-4540</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social d-flex justify-content-center">
+            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Footer-->
+      <footer class="footer small text-center">
+        <div class="container">Copyright © Sheryians 2020</div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
